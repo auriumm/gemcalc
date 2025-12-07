@@ -1,0 +1,160 @@
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 1rem;
+      line-height: 1.5;
+      background: #111;
+      color: #eee;
+    }
+    h1, h2, h3 { margin: 0.5rem 0; }
+    .card {
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: #1e1e1e;
+    }
+    label { display:block; margin-top:0.5rem; }
+    input, select, button, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #333;
+      background: #000;
+      color: #eee;
+      margin-top: 0.2rem;
+      box-sizing: border-box;
+    }
+    button { font-weight: 600; cursor: pointer; }
+    button:disabled { opacity: 0.6; cursor: default; }
+    .hebrew-text {
+      direction: rtl;
+      font-size: 1.6rem;
+      margin: 0.6rem 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 0.3rem;
+      text-align: center;
+    }
+    th { background: #222; position: sticky; top: 0; }
+    #ref-error { color:#f88; margin-top:0.4rem; }
+    .tag {
+      display:inline-block;
+      background:#333;
+      padding:0.15rem 0.6rem;
+      border-radius:999px;
+      margin-right:0.3rem;
+      font-size:0.8rem;
+    }
+    .nav-row {
+      display:flex;
+      gap:0.5rem;
+      margin-top:0.5rem;
+    }
+    .mode-toggle {
+      display:flex;
+      gap:0.5rem;
+      margin-top:0.5rem;
+    }
+    .mode-button {
+      flex:1;
+      padding:0.5rem;
+      border-radius:999px;
+      border:1px solid #444;
+      background:#000;
+      color:#eee;
+      font-weight:600;
+    }
+    .mode-button.active {
+      background:#444;
+    }
+    .hidden {
+      display:none;
+    }
+    #number-legend span.legend-item {
+      display:inline-flex;
+      align-items:center;
+      margin-right:0.75rem;
+      margin-top:0.25rem;
+      font-size:0.85rem;
+    }
+    #number-legend span.legend-swatch {
+      display:inline-block;
+      width:0.9em;
+      height:0.9em;
+      border-radius:3px;
+      margin-right:0.25rem;
+    }
+    .column-toggles {
+      margin-top: 0.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 0.8rem;
+      font-size: 0.85rem;
+    }
+    .column-toggles label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      cursor: pointer;
+    }
+    .column-toggles input[type="checkbox"] {
+      width: auto;
+      margin-top: 0;
+    }
+    #search-status {
+      margin-top: 0.4rem;
+      font-size: 0.85rem;
+    }
+    #search-status.error {
+      color: #f88;
+    }
+    #search-results table {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+    }
+    td.gem-cell {
+      cursor: pointer;
+    }
+    .total-gem {
+      cursor: pointer;
+    }
+    .search-ref {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .search-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem 0.8rem;
+      margin-top: 0.5rem;
+      align-items: flex-end;
+    }
+    @media (max-width: 600px) {
+      .search-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .search-checkbox {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.9rem;
+    }
+    .search-checkbox input[type="checkbox"] {
+      width: auto;
+      margin-top: 0;
+    }
+    .shape-icon {
+      display: inline-block;
+      margin-left: 0.15rem;
+      font-size: 0.75em;
+      vertical-align: middle;
+    }
+  
